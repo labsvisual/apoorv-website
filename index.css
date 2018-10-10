@@ -105,7 +105,6 @@ section#portfolio {
     padding: 3.5em;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
 }
 
 .portfolio__content {
@@ -114,6 +113,10 @@ section#portfolio {
     height: auto;
     display: flex;
     flex-direction: column;
+}
+
+.portfolio__content:not(last-child) {
+    margin-right: 4em;
 }
 
 .portfolio__text {
